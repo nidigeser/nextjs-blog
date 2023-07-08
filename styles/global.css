@@ -18,10 +18,31 @@ a {
 }
 
 a:hover {
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 img {
   max-width: 100%;
   display: block;
+}
+
+nav .img {
+  margin-right: auto;
+}
+
+nav {
+  margin: 10px auto 80px;
+  padding: 10px 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  border-bottom: 1px solid #ddd;
+}
+nav a {
+  margin-left: 20px;
+  color: rgb(145, 145, 145);
+  font-weight: bold;
+}
+nav a:hover {
+  color: #54b3d6;
 }

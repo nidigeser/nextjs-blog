@@ -44,9 +44,42 @@
   }
   
   .listItem {
-    margin: 0 0 1.25rem;
+    margin: 0 0 1rem;
+    padding: 1rem;
+    background-color:rgb(249, 249, 249);
+    border-radius: 12px;
+    box-shadow: inset 0 0 0 0 #5468d6;
+    color: #32829c;
+    transition: color .4s ease-in-out, box-shadow .4s ease-in-out;
+  }
+
+  .listItem:hover {
+    color: white;
+    box-shadow: inset 700px 0 0 0 #54b3d6;
+  }
+
+  .listHeader {
+    font-weight: bold;
   }
   
   .lightText {
     color: #666;
+  }
+
+  .contacts {
+      margin: 10px auto 80px;
+      padding: 10px 0;
+      display: flex;
+      justify-content: flex-start;
+      align-items: flex-start;
+  }
+
+  .contacts a {
+    margin-right: 40px;
+    color: rgb(145, 145, 145);
+    font-weight: bold;
+  }
+
+  .contacts a:hover {
+    color: #54b3d6;
   }
